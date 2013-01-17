@@ -20,6 +20,6 @@ def edit_user(user, name, email)
   fill_in "Name",             with: name
   fill_in "Email",            with: email
   fill_in "Password",         with: user.password
-  fill_in "Confirm Password", with: user.password
+  fill_in "Confirmation", with: user.password
   click_button "Save changes"
 end
