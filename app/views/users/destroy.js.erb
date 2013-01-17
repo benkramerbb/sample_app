@@ -1,0 +1,5 @@
+$('#<%= dom_id(@user) %>').parent().fadeOut();
+$('div.container > h1').before('<div class="alert alert-success">User destroyed.</div>');
+setTimeout(function() {
+  $('div.alert.alert-success').remove();
+}, 3000)
