@@ -38,3 +38,4 @@ end
 
 #gem 'unicorn'
 gem 'thin'
+gem 'newrelic_rpm'
