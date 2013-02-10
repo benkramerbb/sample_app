@@ -17,6 +17,10 @@ SampleApp::Application.routes.draw do
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
 
+  get '/mu-9691fd2f-c0d4f34a-66f2c322-0d4a7fea' do
+    '42'
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
