@@ -36,6 +36,6 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
-#gem 'unicorn'
-gem 'thin'
+gem 'unicorn'
+# gem 'thin'
 gem 'newrelic_rpm'
